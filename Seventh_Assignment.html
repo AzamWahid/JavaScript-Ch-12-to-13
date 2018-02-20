@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var usertime = +prompt('Please Insert Time in 24 hour Format')
+
+    if (usertime >= 0000 && usertime < 1200)
+    {
+        alert('"Good Morning"')
+    }
+    else if (usertime >= 1200 && usertime < 1700)
+    {
+        alert('"Good afternoon"')
+    }
+    else if (usertime >= 1700 && usertime < 2100)
+    {
+        alert('"Good Evening"')
+    }
+    else if (usertime >= 2100 && usertime <= 2359)
+    {
+        alert('"Good Night"')
+    }
+    </script>
+</body>
+</html>
